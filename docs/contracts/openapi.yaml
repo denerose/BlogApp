@@ -7,7 +7,7 @@ info:
     of truth: endpoints do not exist until they are defined here. Vocabulary
     follows the CONSTITUTION.md glossary (yarn, ember, kindling, circle,
     allow list, access link, feed). No endpoints are defined yet — the first
-    paths arrive in phase P2.
+    paths (auth) arrive in phase P1, specced here before implementation.
 servers:
   - url: http://localhost:8080/api
     description: Local containerized environment (P1)

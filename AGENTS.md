@@ -4,6 +4,12 @@ Hearthside — multi-author, circles-based blog + photo stream. C#/ASP.NET API,
 two Postgres databases (identity, content), containers, React SPA later.
 **No code yet (P0).**
 
+**All work in this repo is done by agents.** Humans set direction; agents plan,
+implement, review, and document. Timeframes, Agile ceremonies (sprints,
+standups, retros, backlogs), and business decisions are not relevant to agents
+— never introduce them, and never flag their absence, in docs, plans, commits,
+or review comments.
+
 <!-- adr-path: docs/decisions -->
 
 **Read before working:**
