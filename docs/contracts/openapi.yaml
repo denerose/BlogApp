@@ -1,0 +1,31 @@
+openapi: 3.1.0
+info:
+  title: Hearthside API
+  version: 0.0.0
+  description: >
+    Spec-first contract for the Hearthside API. This file is the single source
+    of truth: endpoints do not exist until they are defined here. Vocabulary
+    follows the CONSTITUTION.md glossary (yarn, ember, kindling, circle,
+    allow list, access link, feed). No endpoints are defined yet — the first
+    paths arrive in phase P2.
+servers:
+  - url: http://localhost:8080/api
+    description: Local containerized environment (P1)
+tags:
+  - name: yarns
+    description: Long-form posts
+  - name: embers
+    description: Micro-format posts (caption ≤250 chars, image, or both)
+  - name: kindling
+    description: Image-group posts bounded by the group max
+  - name: circles
+    description: Allow-list management (thumbprints, inner flag)
+  - name: access
+    description: Access link + magic-link reader flow
+  - name: auth
+    description: Author login (password, passkey, optional magic link)
+  - name: feed
+    description: Logged-in aggregate feed
+paths: {}
+components:
+  schemas: {}

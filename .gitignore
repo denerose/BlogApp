@@ -1,0 +1,16 @@
+# Ignore nothing — hearthside project files
+# (P0: docs only; extend in P1 for .NET, Node, and editor artifacts)
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.user
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
