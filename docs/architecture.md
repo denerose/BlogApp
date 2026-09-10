@@ -44,19 +44,21 @@ flowchart TB
 
 ## Containers — local development
 
-The concrete environment. All of it runs via one compose file (`infra/`, created in P1).
+The concrete environment. All of it runs via one compose file (`infra/`), created
+in P1 with `api`, `content-db`, `identity-db`, and `mailpit` only — `web` joins
+in P4, `storage` in P5.
 
 ```mermaid
 flowchart LR
     BR["Browser"]
 
     subgraph compose["docker compose"]
-        WEB["web — static SPA (placeholder in P1)"]
+        WEB["web — static SPA\n(joins in P4)"]
         API["api — ASP.NET"]
         CDB[("content-db — Postgres\nposts, allow lists, settings")]
         IDB[("identity-db — Postgres\nusers, credentials, sessions")]
         MP["mailpit — local SMTP + inbox UI"]
-        ST["storage — local disk volume\n(storage interface impl)"]
+        ST["storage — local disk volume\n(storage interface impl, joins in P5)"]
     end
 
     BR --> WEB

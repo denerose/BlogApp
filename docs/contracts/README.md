@@ -6,7 +6,8 @@ See [`rules/api-contracts.md`](../rules/api-contracts.md) for the hard rules.
 ## Contents
 
 - `openapi.yaml` — the contract (spec-first: it exists before endpoints do)
-- `postman/` — Postman collection, kept in sync with the spec
+- `postman/` — Postman collection (stub; first requests arrive with the auth
+  paths in P1), kept in sync with the spec
 
 ## Workflow
 

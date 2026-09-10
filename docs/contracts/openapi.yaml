@@ -23,7 +23,7 @@ tags:
   - name: access
     description: Access link + magic-link reader flow
   - name: auth
-    description: Author login (password, passkey, optional magic link)
+    description: Author registration and login (password, passkey, optional magic link)
   - name: feed
     description: Logged-in aggregate feed
 paths: {}

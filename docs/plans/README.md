@@ -6,4 +6,4 @@ there are no dates — phases complete when their exit conditions (in
 
 ## Contents
 
-*(empty — per-phase plan notes are added when each phase starts)*
+- [`p1-foundations.md`](p1-foundations.md) — starter plan for phase P1

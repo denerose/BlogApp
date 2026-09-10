@@ -1,0 +1,8 @@
+{
+  "info": {
+    "name": "Hearthside API",
+    "description": "Kept in sync with docs/contracts/openapi.yaml in the same commit as any spec change (see rules/api-contracts.md). Stub — the first requests arrive with the auth paths in P1.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": []
+}
